@@ -1,0 +1,129 @@
+#define true 1
+#define false 0
+///////////////////////////////////////////////////////////////////////////////
+// Server Settings - Modify at will
+///////////////////////////////////////////////////////////////////////////////
+author = "eXpoch Development Team";
+onLoadName = "eXpoch A4E";
+onLoadMission= "www.eXpoch.info";
+loadScreen = ""; 
+disableChannels[] = {0, 2};
+OnLoadIntro = "Welcome to [DPCG] Community Server";
+OnLoadIntroTime = 0;
+OnLoadMissionTime = 0;
+
+class Header
+{
+    gameType = Survive; // Do NOT change this
+    minPlayers = 1;
+    maxPlayers = 52;
+};
+
+///////////////////////////////////////////////////////////////////////////////
+// Exile Settings - Do not change these!
+///////////////////////////////////////////////////////////////////////////////
+forceRotorLibSimulation = 2;
+skipLobby = 1;
+joinUnassigned = 1;
+respawn = "BASE";
+respawnDelay = 120;
+respawnDialog = 0;
+respawnOnStart = 0;
+respawnButton = 1; 
+respawnTemplates[] = {"Exile"};
+corpseManagerMode = 0;
+corpseLimit = 20;
+corpseRemovalMinTime = 1800;
+corpseRemovalMaxTime = 3600;
+wreckManagerMode = 0;
+wreckLimit = 2;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 360;
+scriptedPlayer = 1;
+disabledAI = 1;
+enableItemsDropping = 0;
+briefing = 0;
+debriefing = 0;
+allowFunctionsLog = 1;
+enableDebugConsole = 0; 
+allowFunctionsRecompile = 0;
+showSquadRadar = 0;
+showUAVFeed = 0;
+reviveDelay = 6;
+reviveForceRespawnDelay = 3;
+reviveBleedOutDelay = 120;
+allowedVoteCmds[] = {};
+
+#include "config.cpp"
+class CfgRemoteExec
+{
+	class Functions
+	{
+		mode = 1;
+		jip = 0;
+		class fnc_AdminReq { allowedTargets=2; };
+		class ExileServer_system_network_dispatchIncomingMessage { allowedTargets=2; };
+		class eXpochClient_object_player_network_fishingResponse { allowedTargets=0; };
+		class eXpochServer_object_player_network_fishingRequest { allowedTargets=2; };
+		class eXpochServer_object_player_network_gutAnimalRequest { allowedTargets=2; };
+		class eXpochServer_object_player_network_lootContainerRequest { allowedTargets=2; };
+		class ExAdServer_fnc_clientRequest { allowedTargets=2; };
+		class APOC_srv_startAirdrop { allowedTargets=2;};
+		class ExileServer_lottery_network_request { allowedTargets=2; };
+		class eXpochClient_object_player_network_miningResponse { allowedTargets=0; };
+		class eXpochServer_object_player_network_miningRequest  { allowedTargets=2; };
+		class eXpochClient_object_player_network_purchaseDogResponse  { allowedTargets=0; };
+		class eXpochServer_object_player_network_trading_purchaseDogRequest   { allowedTargets=2; };
+		class eXpochClient_object_player_network_purchaseMercResponse  { allowedTargets=0; };
+		class eXpochServer_object_player_network_trading_purchaseMercRequest   { allowedTargets=2; };
+		class eXpochClient_object_player_zombieAceDamage   { allowedTargets=0; };
+		class eXpochClient_object_player_eXpochAceDamage   { allowedTargets=0; };
+		class eXpochServer_object_zombie_spawnOnPlayer   { allowedTargets=2; };
+		class eXpochClient_object_zombie_offloadingInit   { allowedTargets=0; };
+		class eXpochServer_object_dmsai_spawnOnPlayer   { allowedTargets=2; };
+		class eXpochClient_object_dmsai_offloadingInit   { allowedTargets=0; };
+		class MOCAP_fnc_StrokeEffects { allowedTargets=1; };
+		class MOCAP_fnc_DropWeapon { allowedTargets=1; };
+		class Fuzz { allowedTargets = 0; };
+		class Hush { allowedTargets = 0; };
+		class rIn { allowedTargets = 0; };
+		class rOut { allowedTargets = 0; };
+	};
+	class Commands
+	{
+		mode=1;
+		jip=0;
+		class playsound { allowedTargets=0; };
+	};
+};
+
+class Params {
+	class AFAR {
+	//paramsArray[0]	(Enable/Disable Scripted Radio)
+		title="Addon-Free ArmA Radio (On/Off)";
+		values[]={1,0};
+		texts[]={"On (Default)","Off"};
+		default=1;
+	};
+};
+
+class CfgSounds {
+	sounds[]={Selfie,in1,in2,out1,fuz1,fuz2,fuz3,fuz4,fuz5,fuz6,fuz7,fuz8};
+	class Selfie
+    {
+        name = "Selfie";
+        sound[] = {"ExadClient\XM8\Apps\Selfie\Selfie.ogg", 1, 1};
+        titles[] = {};
+    };
+	class in1 {name="in1";sound[]={"@A3\Dubbing_Radio_F\sfx\in2a.ogg",db+1,1};titles[]={};};
+	class in2 {name="in2";sound[]={"@A3\Dubbing_Radio_F\sfx\in2a.ogg",db+5,0.7};titles[]={};};
+	class out1 {name="out1";sound[]={"@A3\Dubbing_Radio_F\sfx\out2a.ogg",db+1,1};titles[]={};};
+	class fuz1 {name="fuz1";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+3,1};titles[]={};};
+	class fuz2 {name="fuz2";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+6,1};titles[]={};};
+	class fuz3 {name="fuz3";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+9,1};titles[]={};};
+	class fuz4 {name="fuz4";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+12,1};titles[]={};};
+	class fuz5 {name="fuz5";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+15,1};titles[]={};};
+	class fuz6 {name="fuz6";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+18,1};titles[]={};};
+	class fuz7 {name="fuz7";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+21,1};titles[]={};};
+	class fuz8 {name="fuz8";sound[]={"@A3\Dubbing_Radio_F\sfx\radionoise1.ogg",db+24,1};titles[]={};};
+};

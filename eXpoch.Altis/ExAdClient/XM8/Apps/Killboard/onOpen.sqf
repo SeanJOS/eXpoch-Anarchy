@@ -1,0 +1,1 @@
+call XG_killboardClient

@@ -1,0 +1,164 @@
+ExileClient_system_radiation_thread_update = "\eXpoch_code\overrides\ExileClient_system_radiation_thread_update.sqf";
+
+//Maca loot system
+ExileServer_system_lootManager_dropItem = "\ExileLootDrop\ExileServer_system_lootManager_dropItem.sqf";
+ExileServer_system_lootManager_spawnLootInBuilding = "\ExileLootDrop\ExileServer_system_lootManager_spawnLootInBuilding.sqf";
+//ExAd Server Territory override
+ExileServer_system_territory_database_load = "ExAdClient\VirtualGarage\CustomCode\ExileServer_system_territory_database_load.sqf";
+ExileClient_gui_xm8_slide = "ExAdClient\XM8\CustomCode\ExileClient_gui_xm8_slide.sqf";
+ExileClient_gui_xm8_show = "ExAdClient\XM8\CustomCode\ExileClient_gui_xm8_show.sqf";
+
+ExileClient_object_player_event_onFired = "\eXpoch_code\overrides\ExileClient_object_player_event_onFired.sqf";
+
+ExileClient_object_item_consume = "\eXpoch_code\overrides\ExileClient_object_item_consume.sqf";
+ExileClient_object_item_use = "\eXpoch_code\overrides\ExileClient_object_item_use.sqf";
+ExileClient_gui_selectSpawnLocation_show = "\eXpoch_code\overrides\ExileClient_gui_selectSpawnLocation_show.sqf";
+ExileClient_gui_selectSpawnLocation_event_onListBoxSelectionChanged = "\eXpoch_code\overrides\ExileClient_gui_selectSpawnLocation_event_onListBoxSelectionChanged.sqf";
+
+ExileClient_object_player_network_createPlayerResponse = "\eXpoch_code\overrides\ExileClient_object_player_network_createPlayerResponse.sqf";
+ExileClient_object_player_network_loadPlayerResponse = "\eXpoch_code\overrides\ExileClient_object_player_network_loadPlayerResponse.sqf";
+ExileClient_object_player_network_updateStatsRequest = "\eXpoch_code\overrides\ExileClient_object_player_network_updateStatsRequest.sqf";
+
+//ExileClient_object_player_event_onInventoryOpened = "\eXpoch_code\overrides\ExileClient_object_player_event_onInventoryOpened.sqf";
+//ExileClient_object_player_event_onInventoryClosed = "\eXpoch_code\overrides\ExileClient_object_player_event_onInventoryClosed.sqf";
+ExileClient_util_item_getCompatibleWeaponItems = "\eXpoch_code\overrides\ExileClient_util_item_getCompatibleWeaponItems.sqf";
+ExileClient_util_gear_getCompatibleWeaponItems = "\eXpoch_code\overrides\ExileClient_util_gear_getCompatibleWeaponItems.sqf";
+ExileClient_object_player_death_forceRespawn = "\eXpoch_code\overrides\ExileClient_object_player_death_forceRespawn.sqf";
+ExileClient_gui_interactionMenu_hook = "\eXpoch_code\overrides\ExileClient_gui_interactionMenu_hook.sqf";
+ExileClient_gui_interactionMenu_update = "\eXpoch_code\overrides\ExileClient_gui_interactionMenu_update.sqf";
+ExileClient_gui_interactionMenu_unhook = "\eXpoch_code\overrides\ExileClient_gui_interactionMenu_unhook.sqf";
+ExileClient_gui_escape_abort = "\eXpoch_code\overrides\ExileClient_gui_escape_abort.sqf";
+ExileClient_util_playerEquipment_deserialize = "\eXpoch_code\overrides\ExileClient_util_playerEquipment_deserialize.sqf";
+ExileClient_util_playerEquipment_add = "\eXpoch_code\overrides\ExileClient_util_playerEquipment_add.sqf";
+ExileClient_gui_traderDialog_updateStoreListBox = "\eXpoch_code\overrides\ExileClient_gui_traderDialog_updateStoreListBox.sqf";
+ExileClient_gui_traderDialog_event_onStoreListBoxSelectionChanged = "\eXpoch_code\overrides\ExileClient_gui_traderDialog_event_onStoreListBoxSelectionChanged.sqf";
+ExileClient_gui_vehicleTraderDialog_updateVehicleListBox = "\eXpoch_code\overrides\ExileClient_gui_vehicleTraderDialog_updateVehicleListBox.sqf";
+ExileClient_gui_vehicleTraderDialog_updateVehicle =  "\eXpoch_code\overrides\ExileClient_gui_vehicleTraderDialog_updateVehicle.sqf";
+ExileClient_gui_wasteDumpDialog_event_onModeDropDownSelectionChanged = "\eXpoch_code\overrides\ExileClient_gui_wasteDumpDialog_event_onModeDropDownSelectionChanged.sqf";
+ExileClient_gui_traderDialog_updateInventoryListBox = "\eXpoch_code\overrides\ExileClient_gui_traderDialog_updateInventoryListBox.sqf";
+
+ExileClient_object_fire_inflame = "\eXpoch_code\overrides\ExileClient_object_fire_inflame.sqf";
+
+ExileClient_gui_hud_event_onDraw3d = "\eXpoch_code\overrides\ExileClient_gui_hud_event_onDraw3d.sqf";
+ExileClient_gui_hud_initialize = "\eXpoch_code\overrides\ExileClient_gui_hud_initialize.sqf";
+ExileClient_gui_hud_event_onKeyDown = "\eXpoch_code\overrides\ExileClient_gui_hud_event_onKeyDown.sqf";
+ExileClient_gui_hud_event_onKeyUp = "\eXpoch_code\overrides\ExileClient_gui_hud_event_onKeyUp.sqf";
+
+ExileClient_gui_hud_renderStatsPanel = "\eXpoch_code\overrides\ExileClient_gui_hud_renderStatsPanel.sqf";
+
+ExileClient_gui_hud_showSurvivalInfo = "\eXpoch_code\overrides\ExileClient_gui_hud_showSurvivalInfo.sqf";
+
+ExileClient_object_player_death_startBleedingOut = "\eXpoch_code\overrides\ExileClient_object_player_death_startBleedingOut.sqf";
+
+ExileClient_gui_hud_renderGroupPanel = "\eXpoch_code\overrides\ExileClient_gui_hud_renderGroupPanel.sqf";
+ExileClient_system_lootManager_thread_spawn = "\eXpoch_code\overrides\ExileClient_system_lootManager_thread_spawn.sqf";
+
+ExileClient_util_player_applyHitPointMap = "\eXpoch_code\overrides\ExileClient_util_player_applyHitPointMap.sqf";
+//ExileClient_object_player_event_onHandleDamage = "\eXpoch_code\overrides\ExileClient_object_player_event_onHandleDamage.sqf";
+ExileClient_object_player_stats_update = "\eXpoch_code\overrides\ExileClient_object_player_stats_update.sqf";
+
+ExileClient_gui_constructionMode_update = "\eXpoch_code\overrides\ExileClient_gui_constructionMode_update.sqf";
+ExileClient_construction_beginExistingObject = "\eXpoch_code\overrides\ExileClient_construction_beginExistingObject.sqf";
+ExileClient_construction_beginNewObject = "\eXpoch_code\overrides\ExileClient_construction_beginNewObject.sqf";
+ExileClient_construction_thread = "\eXpoch_code\overrides\ExileClient_construction_thread.sqf";
+ExileClient_construction_handleAbort = "\eXpoch_code\overrides\ExileClient_construction_handleAbort.sqf";
+ExileClient_construction_simulationCountDown = "\eXpoch_code\overrides\ExileClient_construction_simulationCountDown.sqf";
+
+ExileClient_system_music_earplugs_toggle = "\eXpoch_code\overrides\ExileClient_system_music_earplugs_toggle.sqf";
+
+ExileClient_object_player_event_onTake = "\eXpoch_code\overrides\ExileClient_object_player_event_onTake.sqf";
+
+ExileClient_action_hideBody_condition = "\eXpoch_code\overrides\ExileClient_action_hideBody_condition.sqf";
+ExileClient_gui_safezone_safeESP = "\eXpoch_code\overrides\ExileClient_gui_safezone_safeESP.sqf";
+ExileClient_object_handcuffs_use = "\eXpoch_code\overrides\ExileClient_object_handcuffs_use.sqf";
+
+ExileClient_gui_xm8_slide_clan_onOpen = "\eXpoch_code\overrides\ExileClient_gui_xm8_slide_clan_onOpen.sqf";
+ExileClient_gui_xm8_slide_players_event_onClanButtonClick = "\eXpoch_code\overrides\ExileClient_gui_xm8_slide_players_event_onClanButtonClick.sqf";
+ExileClient_gui_xm8_slide_clan_event_onMemberLBSelChanged = "\eXpoch_code\overrides\ExileClient_gui_xm8_slide_clan_event_onMemberLBSelChanged.sqf";
+ExileClient_gui_map_event_onDraw = "\eXpoch_code\overrides\ExileClient_gui_map_event_onDraw.sqf";
+ExileClient_gui_crafting_show = "\eXpoch_code\overrides\ExileClient_gui_crafting_show.sqf";
+ExileClient_object_item_craft = "\eXpoch_code\overrides\ExileClient_object_item_craft.sqf";
+ExileClient_object_player_event_onFiredNear = "\eXpoch_code\overrides\ExileClient_object_player_event_onFiredNear.sqf";
+ExileClient_gui_clan_initialize = "\eXpoch_code\overrides\ExileClient_gui_clan_initialize.sqf";
+ExileClient_gui_toaster_addToast = "\eXpoch_code\overrides\ExileClient_gui_toaster_addToast.sqf";
+ExileClient_system_map_initialize = "\eXpoch_code\overrides\ExileClient_system_map_initialize.sqf";
+ExileClient_gui_vehicleRekeyDialog_event_onDropDownSelectionChanged = "\eXpoch_code\overrides\ExileClient_gui_vehicleRekeyDialog_event_onDropDownSelectionChanged.sqf";
+ExileClient_gui_inventory_updatePopTabControls = "\eXpoch_code\overrides\ExileClient_gui_inventory_updatePopTabControls.sqf";
+ExileClient_util_gear_repackMagazines = "\eXpoch_code\overrides\ExileClient_util_gear_repackMagazines.sqf";
+///////////////////Server///////////////////
+ExileServer_system_process_postInit = "\eXpoch_code\overrides\ExileServer_system_process_postInit.sqf";
+ExileServer_object_tree_network_chopTreeRequest = "\eXpoch_code\overrides\ExileServer_object_tree_network_chopTreeRequest.sqf";
+ExileServer_system_trading_network_purchaseVehicleRequest = "\eXpoch_code\overrides\ExileServer_system_trading_network_purchaseVehicleRequest.sqf";
+ExileServer_system_trading_network_wasteDumpRequest = "\eXpoch_code\overrides\ExileServer_system_trading_network_wasteDumpRequest.sqf";
+ExileServer_system_trading_network_sellItemRequest = "\eXpoch_code\overrides\ExileServer_system_trading_network_sellItemRequest.sqf";
+ExileServer_object_player_network_createPlayerRequest = "\eXpoch_code\overrides\ExileServer_object_player_network_createPlayerRequest.sqf";
+ExileServer_object_player_sendStatsUpdate = "\eXpoch_code\overrides\ExileServer_object_player_sendStatsUpdate.sqf";
+ExileServer_util_getFragKiller = "\eXpoch_code\overrides\ExileServer_util_getFragKiller.sqf";
+ExileServer_util_getFragType = "\eXpoch_code\overrides\ExileServer_util_getFragType.sqf";
+ExileServer_object_player_database_insert = "\eXpoch_code\overrides\ExileServer_object_player_database_insert.sqf";
+ExileServer_object_handcuffs_network_handcuffRequest = "\eXpoch_code\overrides\ExileServer_object_handcuffs_network_handcuffRequest.sqf";
+ExileServer_object_player_network_hideBodyRequest = "\eXpoch_code\overrides\ExileServer_object_player_network_hideBodyRequest.sqf";
+ExileServer_system_trading_network_purchaseItemRequest = "\eXpoch_code\overrides\ExileServer_system_trading_network_purchaseItemRequest.sqf";
+ExileServer_object_player_database_update = "\eXpoch_code\overrides\ExileServer_object_player_database_update.sqf";
+ExileServer_system_clan_database_load = "\eXpoch_code\overrides\ExileServer_system_clan_database_load.sqf";
+ExileServer_system_clan_network_registerClanRequest = "\eXpoch_code\overrides\ExileServer_system_clan_network_registerClanRequest.sqf";
+ExileServer_system_clan_network_inviteToClanRequest = "\eXpoch_code\overrides\ExileServer_system_clan_network_inviteToClanRequest.sqf";
+ExileServer_object_construction_database_load = "\eXpoch_code\overrides\ExileServer_object_construction_database_load.sqf";
+ExileServer_object_construction_network_swapConstructionRequest = "\eXpoch_code\overrides\ExileServer_object_construction_network_swapConstructionRequest.sqf";
+ExileServer_object_container_database_load = "\eXpoch_code\overrides\ExileServer_object_container_database_load.sqf";
+ExileServer_object_container_createContainer = "\eXpoch_code\overrides\ExileServer_object_container_createContainer.sqf";
+ExileServer_object_vehicle_createNonPersistentVehicle = "\eXpoch_code\overrides\ExileServer_object_vehicle_createNonPersistentVehicle.sqf";
+ExileServer_object_vehicle_createPersistentVehicle = "\eXpoch_code\overrides\ExileServer_object_vehicle_createPersistentVehicle.sqf";
+ExileServer_object_vehicle_database_load = "\eXpoch_code\overrides\ExileServer_object_vehicle_database_load.sqf";
+ExileServer_object_vehicle_event_onGetIn = "\eXpoch_code\overrides\ExileServer_object_vehicle_event_onGetIn.sqf";
+ExileServer_system_simulationMonitor_initialize = "\eXpoch_code\overrides\ExileServer_system_simulationMonitor_initialize.sqf";
+ExileServer_system_simulationMonitor_network_enableSimulationRequest = "\eXpoch_code\overrides\ExileServer_system_simulationMonitor_network_enableSimulationRequest.sqf";
+ExileServer_system_simulationMonitor_thread_toggleSimulation = "\eXpoch_code\overrides\ExileServer_system_simulationMonitor_thread_toggleSimulation.sqf";
+ExileServer_object_player_network_loadPlayerRequest = "\eXpoch_code\overrides\ExileServer_object_player_network_loadPlayerRequest.sqf";
+ExileServer_object_player_event_onMpKilled = "\eXpoch_code\overrides\ExileServer_object_player_event_onMpKilled.sqf";
+ExileServer_object_player_database_load = "\eXpoch_code\overrides\ExileServer_object_player_database_load.sqf";
+ExileServer_object_player_createBambi = "\eXpoch_code\overrides\ExileServer_object_player_createBambi.sqf";
+ExileServer_object_vehicle_network_rekeyVehicleDialogRequest = "\eXpoch_code\overrides\ExileServer_object_vehicle_network_rekeyVehicleDialogRequest.sqf";
+ExileServer_system_money_network_putMoneyRequest = "\eXpoch_code\overrides\ExileServer_system_money_network_putMoneyRequest.sqf";
+///////////////////eXpoch Server///////////////////
+eXpochServer_object_player_network_gutAnimalRequest = "\eXpoch_code\overrides\eXpochServer_object_player_network_gutAnimalRequest.sqf";
+eXpochServer_object_player_network_lootContainerRequest = "\eXpoch_code\overrides\eXpochServer_object_player_network_lootContainerRequest.sqf";
+eXpochServer_object_player_network_fishingRequest = "\eXpoch_code\overrides\eXpochServer_object_player_network_fishingRequest.sqf";
+eXpochServer_system_event_animalSpawn = "\eXpoch_code\overrides\eXpochServer_system_event_animalSpawn.sqf";
+eXpochServer_system_event_zombieSpawn = "\eXpoch_code\overrides\eXpochServer_system_event_zombieSpawn.sqf";
+eXpochServer_object_animal_onMpKilled = "\eXpoch_code\overrides\eXpochServer_object_animal_onMpKilled.sqf";
+eXpochServer_object_player_network_miningRequest = "\eXpoch_code\overrides\eXpochServer_object_player_network_miningRequest.sqf";
+eXpochServer_object_player_network_trading_purchaseDogRequest = "\eXpoch_code\overrides\eXpochServer_object_player_network_trading_purchaseDogRequest.sqf";
+eXpochServer_object_player_network_trading_purchaseMercRequest = "\eXpoch_code\overrides\eXpochServer_object_player_network_trading_purchaseMercRequest.sqf";
+eXpochServer_object_merc_event_onMpKilled = "\eXpoch_code\overrides\eXpochServer_object_merc_event_onMpKilled.sqf";
+eXpochServer_object_player_aceMedicalDatabaseUpdate = "\eXpoch_code\overrides\eXpochServer_object_player_aceMedicalDatabaseUpdate.sqf";
+eXpochServer_object_player_rzInfectionPersistence = "\eXpoch_code\overrides\eXpochServer_object_player_rzInfectionPersistence.sqf";
+ExileServer_system_clan_network_moderationClanRequest = "\eXpoch_code\overrides\ExileServer_system_clan_network_moderationClanRequest.sqf";
+eXpochServer_object_zombie_spawnOnPlayer = "\eXpoch_code\overrides\eXpochServer_object_zombie_spawnOnPlayer.sqf";
+eXpochServer_object_zombie_onMpKilled = "\eXpoch_code\overrides\eXpochServer_object_zombie_onMpKilled.sqf";
+eXpochServer_object_dmsai_spawnOnPlayer = "\eXpoch_code\overrides\eXpochServer_object_dmsai_spawnOnPlayer.sqf";
+eXpochServer_system_event_platoonSpawn = "\eXpoch_code\overrides\eXpochServer_system_event_platoonSpawn.sqf";
+
+ExileServer_object_construction_database_insert = "\eXpoch_code\overrides\ExileServer_object_construction_database_insert.sqf";
+ExileServer_object_container_database_insert = "\eXpoch_code\overrides\ExileServer_object_container_database_insert.sqf";
+ExileServer_object_container_database_update = "\eXpoch_code\overrides\ExileServer_object_container_database_update.sqf";
+ExileServer_system_database_connect = "\eXpoch_code\overrides\ExileServer_system_database_connect.sqf";
+ExileServer_system_database_handleBig = "\eXpoch_code\overrides\ExileServer_system_database_handleBig.sqf";
+ExileServer_system_database_query_fireAndForget = "\eXpoch_code\overrides\ExileServer_system_database_query_fireAndForget.sqf";
+ExileServer_system_database_query_insertSingle = "\eXpoch_code\overrides\ExileServer_system_database_query_insertSingle.sqf";
+ExileServer_system_database_query_selectFull = "\eXpoch_code\overrides\ExileServer_system_database_query_selectFull.sqf";
+ExileServer_system_database_query_selectSingle = "\eXpoch_code\overrides\ExileServer_system_database_query_selectSingle.sqf";
+ExileServer_system_database_query_selectSingleField = "\eXpoch_code\overrides\ExileServer_system_database_query_selectSingleField.sqf";
+ExileServer_system_territory_database_insert = "\eXpoch_code\overrides\ExileServer_system_territory_database_insert.sqf";
+ExileServer_system_territory_maintenance_recalculateDueDate = "\eXpoch_code\overrides\ExileServer_system_territory_maintenance_recalculateDueDate.sqf";
+ExileServer_system_territory_network_flagStolenRequest = "\eXpoch_code\overrides\ExileServer_system_territory_network_flagStolenRequest.sqf";
+ExileServer_system_territory_network_payFlagRansomRequest = "\eXpoch_code\overrides\ExileServer_system_territory_network_payFlagRansomRequest.sqf";
+ExileServer_system_territory_network_payTerritoryProtectionMoneyRequest = "\eXpoch_code\overrides\ExileServer_system_territory_network_payTerritoryProtectionMoneyRequest.sqf";
+ExileServer_system_territory_network_purchaseTerritory = "\eXpoch_code\overrides\ExileServer_system_territory_network_purchaseTerritory.sqf";
+ExileServer_system_territory_network_restoreFlagRequest = "\eXpoch_code\overrides\ExileServer_system_territory_network_restoreFlagRequest.sqf";
+ExileServer_system_territory_network_territoryUpgradeRequest = "\eXpoch_code\overrides\ExileServer_system_territory_network_territoryUpgradeRequest.sqf";
+ExileServer_system_trading_network_purchaseVehicleSkinRequest = "\eXpoch_code\overrides\ExileServer_system_trading_network_purchaseVehicleSkinRequest.sqf";
+ExileServer_util_time_addTime = "\eXpoch_code\overrides\ExileServer_util_time_addTime.sqf";
+ExileServer_util_time_currentTime = "\eXpoch_code\overrides\ExileServer_util_time_currentTime.sqf";
+ExileServer_util_time_uptime = "\eXpoch_code\overrides\ExileServer_util_time_uptime.sqf";
+ExileServer_world_initialize = "\eXpoch_code\overrides\ExileServer_world_initialize.sqf";
